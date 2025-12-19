@@ -13,4 +13,14 @@ fn main() {
 
         count += 1;
     }
+
+    loop{
+        println!("learning rust");
+
+        if count == 16{
+            break;
+        }
+
+        count += 1;
+    }
 }
